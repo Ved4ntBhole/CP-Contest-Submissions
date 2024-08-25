@@ -1,1 +1,14 @@
-
+#include <stdio.h>
+int main()
+{
+    int N, K;
+    scanf("%d %d", &N, &K);  // Corrected: Added '&' to take the address of N and K
+    int arr[N];
+    for(int i = 0; i < N; i++) {
+        scanf("%d", &arr[i]);  // Corrected: Added '&' to take the address of arr[i]
+    }
+    for(int i = 0; i < N; i++) {
+        printf("%d ", arr[i]);  // Added a space for better formatting
+    }
+    return 0;
+}
