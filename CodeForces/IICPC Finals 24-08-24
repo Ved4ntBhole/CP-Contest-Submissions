@@ -1,3 +1,31 @@
+/*
+A. Birthday Gift
+time limit per test1 second
+memory limit per test256 megabytes
+It is your birthday and your 2D anime waifu gives you four integers l, a, b, and r such that l≤a≤b≤r. She wants you to choose an integer c such that l≤c≤r and the value of |a−c|+|b−c| is maximized.
+
+Over all possible c you can choose, output the maximum value of |a−c|+|b−c|.
+
+Input
+The first line contains t (1≤t≤1000)  – the number of test cases.
+
+Each test case contains four integers l, a, b, and r (1≤l≤a≤b≤r≤109).
+
+Output
+For each test case, output the maximum value of |a−c|+|b−c| over all possible integers l≤c≤r.
+
+Example
+Input
+3
+1 5 7 8
+2 2 4 4
+100000 100000 100000 100000
+Output
+10
+2
+0
+*/
+
 #include <stdio.h>
 int main()
 {
